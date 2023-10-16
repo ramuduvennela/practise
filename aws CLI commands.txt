@@ -72,14 +72,6 @@ wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/instal
 chmod +x ./install
 ./install auto
 
-sudo service codedeploy-agent status
-
-
-ramudu-at-364113050245
-711e581kisw0JW/FA/QqWPOiWpqtHc1YwSEDyb+eAPM=
-
-
-aws s3 ls --recursive s3://aws-codedeploy-ap-south-1 --region ap-south-1
 
 
 
@@ -118,23 +110,13 @@ aws s3 ls --recursive s3://aws-codedeploy-ap-south-1 --region ap-south-1
 
 
 
-user: ramudu
-key: ramudu123@
-
-url : https://364113050245.signin.aws.amazon.com/console
-
-account id: 364113050245
-
-arbaig1103@gmail.com
-7793917739@r
 
 
-AKIAVJRWUHKC4MJIFTWY
-kKLav+MrD0yWJMXDB/Br0+RspYN5holPXh0/aSsw
 
 
-AKIAVJRWUHKCWD3SLEGF
-cmzlLLViqrcdfrVx/krMdqI3bMbXq/GHwdUH7Y7+
+
+
+
 
 
 
