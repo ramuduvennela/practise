@@ -1,0 +1,231 @@
+cd \
+cd "program File"
+dir
+cd amazon
+dir
+cd AWSCLV2
+aws --version
+aws configure
+enter access id:
+enter secreate key:
+region --ap-south-1
+#note : IAM --user - 
+aws eks --region ap-south-1 describe-cluster --name master-cluster --query cluster.status
+#cubectl for windows--
+us curl link copy and pasre it in aws cli
+aws eks --region ap-south-1 update-kubeconfig --name master-cluster
+kubectl get nodes
+kubectl get pod
+kubectl run -it httpd --image httpd
+kubectl get pod
+kubectl exec -it httpd bash
+kubectl delete pod httpd
+
+#dir *.yaml
+
+
+deployement process
+---------------------
+kubectl apply -f <deployementfile.yaml>.yaml
+
+kubectl get pod
+
+kubectl exec -it <podname> bash
+
+# ones enter inside of the pod,we can run command is 
+service apache2 status
+
+# for checking the deployement the command is 
+kubectl get deployement
+ 
+# To know the more details of the pod,node,deployement and service
+kubectl get pod -o wide 
+
+kubectl describe pod <name of the pod> 
+
+service process
+-------------------
+kubectl create -f <service.yaml>.yaml
+kubectl get replicaset
+kubectl apply -f apacheubuntu.yaml
+kubectl get pod 
+kubectl top node
+
+install metric service
+-----------------------
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+kubectl get deployment metrics-server -n kube-system
+kubectl delete pod/service/deployment <name>
+kubectl top node
+kubectl get service
+
+horizontal pod autoscaler
+-----------------------------
+go to the HPA documentation and run the needful commands  
+kubectl get hpa php-apache
+
+
+#!/bin/bash
+apt-get update
+apt-get install -y ruby-full
+wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
+chmod +x ./install
+./install auto
+
+sudo service codedeploy-agent status
+
+
+ramudu-at-364113050245
+711e581kisw0JW/FA/QqWPOiWpqtHc1YwSEDyb+eAPM=
+
+
+aws s3 ls --recursive s3://aws-codedeploy-ap-south-1 --region ap-south-1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+user: ramudu
+key: ramudu123@
+
+url : https://364113050245.signin.aws.amazon.com/console
+
+account id: 364113050245
+
+arbaig1103@gmail.com
+7793917739@r
+
+
+AKIAVJRWUHKC4MJIFTWY
+kKLav+MrD0yWJMXDB/Br0+RspYN5holPXh0/aSsw
+
+
+AKIAVJRWUHKCWD3SLEGF
+cmzlLLViqrcdfrVx/krMdqI3bMbXq/GHwdUH7Y7+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
