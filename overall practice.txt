@@ -1,0 +1,201 @@
+FROM ubuntu:latest
+MAINTAINER "danam@gmail.com"
+RUN apt-get update && apt-get -y install apache2
+EXPOSE 80
+ENTRYPOINT ["/usr/sbin/apachectl"]
+CMD ["-D" "FOREGROUND"]
+COPY ..
+VOLUME /var/www/html
+
+
+
+1.git ----
+
+git commands
+---------------
+New repository on the command line
+----------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main or master
+git remote add origin ssh url and httpd url past here
+git push -u origin main or master
+
+Existing repository from the command line
+------------------------------------------
+git remote add origin git@github.com:ramuduvennela/practise.git
+git branch -M main
+git push -u origin main
+
+how to push files from local system to git hub
+-----------------------------------------------
+First install git bash in your local system 
+Go to git hub ,setting and create ssh key ,the command is [ssh-keygen -t ed25519 -C "your_email@example.com"]
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.ec2 insatnces
+3.bean stalk
+4.cloud formation
+5.Docekr
+6.kubernetes
+7.code-commit
+8.Elastic Container Registry
+9.Elastic Container Services
+10.Code-pipeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
